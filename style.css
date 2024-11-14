@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #6f4c3e; */
+  background-color:#f4f4f4; 
+color:#333 ; 
+    /* font-family: sans-serif; */
+}
+header{
+ background-color:#6f4c3e; 
+    color:#d7b29b ; 
+padding: 60px 0;
+text-align: center;
+/* position: relative;  */
+}
+header h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+header p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+nav ul{
+    list-style: none;
+    padding: 0; 
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+    /* color: #d7b29b; */
+}
+nav ul li a{
+    color: #d7b29b;
+    text-decoration: none;
+    font-weight: bold;
+    /* position: relative; */
+}
+/* nav ul li a ::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: aqua;
+    transition: width 0.4s;
+}
+nav ul li a :hover::after{
+    width: 100%;
+} */
+ .portfolio-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#6f4c3e;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);  */
+ }
+ .portfolio-container img{
+    width: 350px;
+    height: 300px;
+    border-radius: 5%;
+    display: block;
+    /* margin:0 auto; */
+ }
+ section {
+    /* display: flex; */
+    align-items: center;
+    /* margin-top: 20px; */
+    padding: 50px; 
+    background: #d7b29b;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+/* section p{
+    display: flex;
+} */
+h2{
+    color:#6f4c3e ;
+    margin-bottom: 15px;
+    /* position: absolute; */
+    width: 100%;
+}
+h2::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background:#6f4c3e;
+    margin-top: 5px;
+}
+.hidden{display: none;}
+input[type="checknox"]{
+    display: none;
+}
+.skill-button {
+    display: inline-block;
+    cursor: pointer;
+    background: #6f4c3e;
+    color: #d7b29b;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+input[type="checkbox"]:checked + .skill-button + #skills {
+    display: block;
+}
+.skill-button{
+    display: inline-block;
+    cursor: pointer;
+    background: #6f4c3e;
+    color:#d7b29b ;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#skills {
+    padding: 10px;
+    /* background: #e0b9a1;  */
+    border-radius: 5px;
+    color: #d7b29b;
+}
+#skills ul{
+    list-style: none;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
